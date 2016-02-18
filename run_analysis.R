@@ -1,7 +1,7 @@
 # Cleaning Data Project
 # Author: Daniel Rosquete
-# Repo: 
-# Documentation: 
+# Repo: https://github.com/dhrosquete/CleaningDataProject
+# Documentation: https://github.com/dhrosquete/CleaningDataProject/blob/master/CodeBook.md
 
 # PLEASE If you need further Comments and explanation, check the 
 # Documentation linked Above
