@@ -67,4 +67,5 @@ mergedDataSet<-rbind(trainDataSet,testDataSet)
 #****** Creating the Tidy DataSet and writing it to a csv file
 tidyData <- aggregate(. ~IDSubject + activName,mergedDataSet,mean)
 tidyData <- tidyData[order(tidyData$IDSubject,tidyData$activName),]
-write.csv(tidyData,file="tidyData.csv")
+write.csv(tidyData,file="tidyData.csv") 
+write.table(tidyData,file="tidyData.txt",row.names = FALSE)
